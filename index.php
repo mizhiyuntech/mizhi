@@ -37,7 +37,7 @@ function castBottleMessage($url, $token, $message) {
     ];
     
     $data = json_encode([
-        'message' => $message
+        'content' => $message
     ]);
     
     $curl = curl_init();
