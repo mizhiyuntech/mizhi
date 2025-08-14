@@ -1,0 +1,25 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mizhiyuntech/mizhi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mizhiyuntech/mizhi/issues"
+  },
+  "homepage": "https://github.com/mizhiyuntech/mizhi#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
